@@ -1,0 +1,33 @@
+﻿Build started 8/31/2024 11:41:38 AM.
+     1>Project "C:\Users\Mokresh\Documents\Visual Studio 2015\Projects\Project1\Project1\Project1.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         E:\Visual Studio\VC\bin\x86_amd64\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"x64\Debug\\" /Fd"x64\Debug\vc140.pdb" /Gd /TP /errorReport:prompt Main.cpp
+         Main.cpp
+     1>c:\users\mokresh\documents\visual studio 2015\projects\project1\project1\clsstring.h(44): warning C4267: 'return': conversion from 'size_t' to 'short', possible loss of data
+     1>c:\users\mokresh\documents\visual studio 2015\projects\project1\project1\clsstring.h(49): warning C4267: 'return': conversion from 'size_t' to 'short', possible loss of data
+     1>c:\users\mokresh\documents\visual studio 2015\projects\project1\project1\clsstring.h(60): warning C4267: '=': conversion from 'size_t' to 'short', possible loss of data
+     1>c:\users\mokresh\documents\visual studio 2015\projects\project1\project1\clsstring.h(187): warning C4267: 'return': conversion from 'size_t' to 'short', possible loss of data
+     1>c:\users\mokresh\documents\visual studio 2015\projects\project1\project1\clsstring.h(318): warning C4267: '=': conversion from 'size_t' to 'short', possible loss of data
+     1>c:\users\mokresh\documents\visual studio 2015\projects\project1\project1\clsstring.h(366): warning C4267: 'initializing': conversion from 'size_t' to 'short', possible loss of data
+     1>c:\users\mokresh\documents\visual studio 2015\projects\project1\project1\clsuser.h(164): warning C4554: '&': check operator precedence for possible error; use parentheses to clarify precedence
+     1>c:\users\mokresh\documents\visual studio 2015\projects\project1\project1\clsvalidate.h(89): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+     1>c:\users\mokresh\documents\visual studio 2015\projects\project1\project1\clsvalidate.h(93): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+     1>c:\users\mokresh\documents\visual studio 2015\projects\project1\project1\clsbankclient.h(29): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+     1>c:\users\mokresh\documents\visual studio 2015\projects\project1\project1\clsclientlistscreen.h(76): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+     1>c:\users\mokresh\documents\visual studio 2015\projects\project1\project1\clsaddlistscreen.h(25): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+     1>c:\users\mokresh\documents\visual studio 2015\projects\project1\project1\clsupdateclientscreen.h(23): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+     1>c:\users\mokresh\documents\visual studio 2015\projects\project1\project1\clsdepositscreen.h(30): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+     1>c:\users\mokresh\documents\visual studio 2015\projects\project1\project1\clstransferscreen.h(54): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+     1>c:\users\mokresh\documents\visual studio 2015\projects\project1\project1\clsaddnewuserscreen.h(66): warning C4101: 'Permission': unreferenced local variable
+     1>c:\users\mokresh\documents\visual studio 2015\projects\project1\project1\clscurrency.h(27): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+     1>c:\users\mokresh\documents\visual studio 2015\projects\project1\project1\clsbankclient.h(265): warning C4715: 'clsBankClient::Save': not all control paths return a value
+     1>c:\users\mokresh\documents\visual studio 2015\projects\project1\project1\clsuser.h(292): warning C4715: 'clsUser::Save': not all control paths return a value
+     1>c:\users\mokresh\documents\visual studio 2015\projects\project1\project1\clsuser.h(235): warning C4715: 'clsUser::Find': not all control paths return a value
+       Link:
+         E:\Visual Studio\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Mokresh\Documents\Visual Studio 2015\Projects\Project1\x64\Debug\Project1.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\Mokresh\Documents\Visual Studio 2015\Projects\Project1\x64\Debug\Project1.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Mokresh\Documents\Visual Studio 2015\Projects\Project1\x64\Debug\Project1.lib" /MACHINE:X64 x64\Debug\Main.obj
+         Project1.vcxproj -> C:\Users\Mokresh\Documents\Visual Studio 2015\Projects\Project1\x64\Debug\Project1.exe
+     1>Done Building Project "C:\Users\Mokresh\Documents\Visual Studio 2015\Projects\Project1\Project1\Project1.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:12.50
